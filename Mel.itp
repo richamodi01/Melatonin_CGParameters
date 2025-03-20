@@ -1,0 +1,141 @@
+;
+; Topology prepared automatically using PyCGTOOL
+; James Graham <J.A.Graham@soton.ac.uk> 2016
+; University of Southampton
+; https://github.com/jag1g13/pycgtool
+;
+
+[ moleculetype ]
+MEL     1
+
+[ atoms ]
+   1 TN3a    1 MEL  O1      1    0.000
+   2 TC4     1 MEL  C2      2    0.000
+   3 TC5     1 MEL  C3      3    0.000
+   4 TC5     1 MEL  R1      4    0.000    0.000
+   5 TC5     1 MEL  C4      5    0.000
+   6 SN6d    1 MEL  N5      6    0.000
+   7 SN4     1 MEL  N6      7    0.000
+   8 SN5a    1 MEL  O7      8    0.000
+
+[ virtual_sitesn ]
+  4      1    2 3 5
+
+[ exclusions ]
+4 2 3 5
+
+[ bonds ]
+   1    2    1      0.22318  13146.82073
+   7    6    1      0.34140   4980.65191
+   8    7    1      0.28878  74321.90866
+
+[ angles ]
+   1    2    3    2    107.19971     61.38029
+   1    2    5    2    164.52994    968.05902
+   2    3    6    2    124.65564   7129.88524
+   2    5    6    2    123.84820   6821.56393
+   3    6    7    2     74.20710    135.03621
+   5    6    7    2    122.76082    151.17171
+   6    7    8    2    143.20161     64.06149
+
+[ constraints ]
+   2    3    1      0.20914
+   3    5    1      0.21054
+   5    2    1      0.21000
+   6    3    1      0.24422
+; Topology prepared automatically using PyCGTOOL
+; James Graham <J.A.Graham@soton.ac.uk> 2016
+; University of Southampton
+; https://github.com/jag1g13/pycgtool
+;
+
+[ moleculetype ]
+MEL     1
+
+[ atoms ]
+   1 TN3a    1 MEL  O1      1    0.000
+   2 TC4     1 MEL  C2      2    0.000
+   3 TC5     1 MEL  C3      3    0.000
+   4 TC5     1 MEL  R1      4    0.000    0.000
+   5 TC5     1 MEL  C4      5    0.000
+   6 SN6d    1 MEL  N5      6    0.000
+   7 SN4     1 MEL  N6      7    0.000
+   8 SN5a    1 MEL  O7      8    0.000
+
+[ virtual_sitesn ]
+  4      1    2 3 5
+
+[ exclusions ]
+4 2 3 5
+
+[ bonds ]
+   1    2    1      0.22318  13146.82073
+   7    6    1      0.34140   4980.65191
+   8    7    1      0.28878  74321.90866
+
+[ angles ]
+   1    2    3    2    107.19971     61.38029
+   1    2    5    2    164.52994    968.05902
+   2    3    6    2    124.65564   7129.88524
+   2    5    6    2    123.84820   6821.56393
+   3    6    7    2     74.20710    135.03621
+   5    6    7    2    122.76082    151.17171
+   6    7    8    2    143.20161     64.06149
+
+[ constraints ]
+   2    3    1      0.20914
+   3    5    1      0.21054
+   5    2    1      0.21000
+   6    3    1      0.24422
+   6    5    1      0.24505
+; Topology prepared automatically using PyCGTOOL
+; James Graham <J.A.Graham@soton.ac.uk> 2016
+; University of Southampton
+; https://github.com/jag1g13/pycgtool
+;
+
+[ moleculetype ]
+MEL     1
+
+[ atoms ]
+; nr type resnr resid atom cgnr	 charge
+   1 TN3a    1 MEL  O1      1    0.000
+   2 TC4     1 MEL  C2      2    0.000
+   3 TC5     1 MEL  C3      3    0.000
+   4 TC5     1 MEL  R1      4    0.000    0.000
+   5 TC5     1 MEL  C4      5    0.000
+   6 SN6d    1 MEL  N5      6    0.000
+   7 SN4     1 MEL  N6      7    0.000
+   8 SN5a    1 MEL  O7      8    0.000
+
+[ virtual_sitesn ]
+; site  from atoms
+  4      1    2 3 5
+
+[ exclusions ]
+4 2 3 5
+
+[ bonds ]
+; ai   aj   funct   length    force.c
+   1    2    1      0.22318  13146.82073
+   7    6    1      0.34140   4980.65191
+   8    7    1      0.28878  74321.90866
+
+[ angles ]
+; ai   aj   ak   funct  angle	     force.c
+   1    2    3    2    107.19971     61.38029
+   1    2    5    2    164.52994    968.05902
+   2    3    6    2    124.65564   7129.88524
+   2    5    6    2    123.84820   6821.56393
+   3    6    7    2     74.20710    135.03621
+   5    6    7    2    122.76082    151.17171
+   6    7    8    2    143.20161     64.06149
+
+[ constraints ]
+; ai   aj   funct   distance
+   2    3    1      0.20914
+   3    5    1      0.21054
+   5    2    1      0.21000
+   6    3    1      0.24422
+   6    5    1      0.24505
+   6    5    1      0.24505
